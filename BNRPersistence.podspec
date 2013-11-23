@@ -7,7 +7,7 @@ http://weblog.bignerdranch.com/"
   s.license               = { :type => "LGPL", :file => "LICENSE" }
   s.author                = { "kishikawakatsumi" => "kishikawakatsumi@mac.com" }
   s.source                = { :git => "https://github.com/kishikawakatsumi/BNRPersistence.git", :tag => "v#{s.version}" }
-  
-  s.source_files          = "Lib/*", Vendor/**/*.{h,c}"
+  s.ios.deployment_target = "5.0"
+  s.source_files          = "Lib/*", "Vendor/**/*.{h,c}"
   s.requires_arc          = false
 end
