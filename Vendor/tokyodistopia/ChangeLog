@@ -1,0 +1,100 @@
+2010-08-01  FAL Labs  <info@fallabs.com>
+
+	- site documents were modified.
+
+	- Release: 0.9.15
+
+2010-03-01  FAL Labs  <info@fallabs.com>
+
+	* tcqdb.c: bugs by signdness confusion were fixed.
+
+	- Release: 0.9.14
+
+2009-06-18  FAL Labs  <info@fallabs.com>
+
+	* tcqdb.c (tcqdbsearchimpl): performance was improved by backporting from TC.
+
+	- Release: 0.9.13
+
+2009-06-14  FAL Labs  <info@fallabs.com>
+
+	* tcqtest.c (sysprint): new function.
+
+	* dysttest.c (sysprint): new function.
+
+	- Release: 0.9.12
+
+2009-04-01  FAL Labs  <info@fallabs.com>
+
+	* dystmgr.c (runsearch): interpretation of search options was modified.
+
+	* lapumgr.c (runsearch): interpretation of search options was modified.
+
+	- Release: 0.9.11
+
+2009-01-05  FAL Labs  <info@fallabs.com>
+
+	* tcqmgr.c (tccmpocrs): a bug related to overflow was fixed.
+
+	- Release: 0.9.10
+
+2009-01-03  FAL Labs  <info@fallabs.com>
+
+	* dystsearch.c (readparameters): semicolon separater is now supported.
+
+	- Release: 0.9.9
+
+2008-10-20  FAL Labs  <info@fallabs.com>
+
+	* tcqdb.c (tcidsetnew, tcidbsetdel): performance was improved by using mmap.
+
+	- Release: 0.9.8
+
+2008-10-04  FAL Labs  <info@fallabs.com>
+
+	* tcqdb.c (tccmpocrs, tccmpuint64): bugs of comparison was fixed.
+
+	- Release: 0.9.7
+
+2008-09-10  FAL Labs  <info@fallabs.com>
+
+	* tcqdb.c (tctextnormalize): a bug of memory corruption was fixed.
+
+	- Release: 0.9.6
+
+2008-07-10  FAL Labs  <info@fallabs.com>
+
+	* tcqdb.c (tcqdbcacheclear): new function.
+
+	* tcwdb.c (tcwdbcacheclear): new function.
+
+	- Release: 0.9.5
+
+2008-07-01  FAL Labs  <info@fallabs.com>
+
+	* tcwdb.h, tcwdb.c, laputa.h, laputa.c: new files.
+
+	- Release: 0.9.4
+
+2008-04-25  FAL Labs  <info@fallabs.com>
+
+	* tcqdb.c (tcqdbsetcache): new function.
+
+	* dystopia.c (tcidbsetcache): new function.
+
+	* myconf.c: code cleanup.
+
+	- Release: 0.9.3
+
+2008-04-23  FAL Labs  <info@fallabs.com>
+
+	- Code cleanup.
+
+	- Release: 0.9.2
+
+2008-04-20  FAL Labs  <info@fallabs.com>
+
+	- The initial version.
+
+	- Release: 0.9.1
+
